@@ -4,7 +4,7 @@ Template Name: Landing
 */
 get_header(); ?>
 
- 
+
 
 
     <!-- MAIN PAGE -->
@@ -13,7 +13,7 @@ get_header(); ?>
 
     <div class="header-text-block">
       <div class="in">
-        <h1>Обеспечим юриди-<br/> ческую защиту<br/> вашего бизнеса</h1>
+
         <span class="mobile-header">Обеспечим юридическую защиту вашего бизнеса</span>
         <a data-fancybox data-src="#hidden-content" href="javascript:;" class="btn btn-yellow">Получить консультацию</a>
       </div>
