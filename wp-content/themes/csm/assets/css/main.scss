@@ -395,7 +395,6 @@ a {
   line-height: 16px;
   font-family: $rubik-medium;
   transition: 0.2s all;
-
   &:hover {
     background: $blue;
     color: #fff;
@@ -405,7 +404,6 @@ a {
   &.btn-blue {
     background: $blue;
     color: #fff;
-
     &:hover {
       background: $blue-hover;
       color: #fff;
@@ -548,21 +546,23 @@ div.wpcf7 .ajax-loader{
 
 
 input[type=submit] {
-  color: #fff;
-  background: $blue;
-  border-radius: 3px;
-  padding: 20px 26px;
+  padding: 12px 23px;
   text-align: center;
-  border: 1px solid $blue;
+  border: 2px solid $blue;
+  border-radius: 30px;
   display: inline-block;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 16px;
   font-family: $rubik-medium;
+  transition: 0.2s all;
+  background: $blue;
+  color: #fff;
   cursor: pointer;
-
   &:hover {
     background: $blue-hover;
+    color: #fff;
+    transition: 0.2s all;
   }
 }
 
@@ -676,7 +676,7 @@ input[type=submit] {
 
 
 .services-block {
-  margin: 0 4px 68px;
+  margin: 0 4px 20px;
   padding: 26px 0 20px 40px;
 
   .img {
@@ -735,8 +735,10 @@ input[type=submit] {
 }
 
 .landbg {
-  background: url('../images/landbg.svg') center top no-repeat;
+  background: url('../images/landbg.svg') center top repeat;
   min-height: 704px;
+  padding-bottom: 20px;
+  border-radius: 10px;
 }
 
 .section2 {
@@ -1139,11 +1141,24 @@ span.wpcf7-not-valid-tip {
   }
 }
 
-.page-template-poll {
-  h2.entry-title {
-    display: none;
+.fancybox-inner{
+  .form .wpcf7-response-output{
+    max-width: 354px;
   }
 }
+.fancybox-slide--html .fancybox-close-small{
+  svg{
+    display: none;
+  }
+  width: 29px;
+  height: 29px;
+  background: url('../images/cross.svg') 0 0 no-repeat;
+  background-size: contain;
+  right: 15px !important;
+  top: 15px !important;
+}
+
+
 
 @media (min-width: 1024px) and (max-width: 1440px) {
 

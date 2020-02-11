@@ -42,7 +42,7 @@
 <div style="display: none;" id="callmeback">
   <div class="form">
     <div class="header">Заказать звонок</div>
-    <?php echo do_shortcode('[contact-form-7 id="72" title="Заказать звонок"]'); ?>
+    <?php echo do_shortcode('[contact-form-7 id="19" title="Заказать звонок"]'); ?>
   </div>
 </div>
 <div style="display: none;" id="help">

@@ -428,20 +428,23 @@ div.wpcf7 .ajax-loader {
   right: 150px; }
 
 input[type=submit] {
-  color: #fff;
-  background: #16A2E5;
-  border-radius: 3px;
-  padding: 20px 26px;
+  padding: 12px 23px;
   text-align: center;
-  border: 1px solid #16A2E5;
+  border: 2px solid #16A2E5;
+  border-radius: 30px;
   display: inline-block;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 16px;
   font-family: "Rubik-Medium", sans-serif;
+  transition: 0.2s all;
+  background: #16A2E5;
+  color: #fff;
   cursor: pointer; }
   input[type=submit]:hover {
-    background: #16adf2; }
+    background: #16adf2;
+    color: #fff;
+    transition: 0.2s all; }
 
 .section2_right .form input {
   display: inline-block;
@@ -522,7 +525,7 @@ input[type=submit] {
     padding: 21px 37px; }
 
 .services-block {
-  margin: 0 4px 68px;
+  margin: 0 4px 20px;
   padding: 26px 0 20px 40px; }
   .services-block .img {
     margin: 0 auto 29px; }
@@ -558,8 +561,10 @@ input[type=submit] {
     padding-left: 8px; }
 
 .landbg {
-  background: url("../images/landbg.svg") center top no-repeat;
-  min-height: 704px; }
+  background: url("../images/landbg.svg") center top repeat;
+  min-height: 704px;
+  padding-bottom: 20px;
+  border-radius: 10px; }
 
 .section2 {
   margin-bottom: 18px;
@@ -845,7 +850,17 @@ span.wpcf7-not-valid-tip {
   font-size: 12px;
   line-height: 16px; }
 
-.page-template-poll h2.entry-title {
-  display: none; }
+.fancybox-inner .form .wpcf7-response-output {
+  max-width: 354px; }
+
+.fancybox-slide--html .fancybox-close-small {
+  width: 29px;
+  height: 29px;
+  background: url("../images/cross.svg") 0 0 no-repeat;
+  background-size: contain;
+  right: 15px !important;
+  top: 15px !important; }
+  .fancybox-slide--html .fancybox-close-small svg {
+    display: none; }
 
 /*# sourceMappingURL=main.css.map */

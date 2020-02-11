@@ -34,7 +34,7 @@ get_header(); ?>
               <div class="img"></div>
               <div class="text">Помощь в получении РВП</div>
               <div class="desc">Помощь в получении РВП и ВНЖ</div>
-              <div><a  data-fancybox data-src="#help" href="javascript:;" data-subject="Помощь в получении РВП" class="btn btn-blue large"><span>Получить консультацию</span></a></div>
+              <div><a data-fancybox data-src="#help" href="javascript:;" data-subject="Помощь в получении РВП" class="btn btn-blue large"><span>Получить консультацию</span></a></div>
             </div>
           </div>
           <div class="flex3 ico3">
@@ -42,7 +42,7 @@ get_header(); ?>
               <div class="img"></div>
               <div class="text">Оформление гражданства</div>
               <div class="desc">Оформление Гражданства РФ</div>
-              <div><a  data-fancybox data-src="#help" href="javascript:;" data-subject="Оформление гражданства" class="btn btn-blue large"><span>Получить консультацию</span></a></div>
+              <div><a data-fancybox data-src="#help" href="javascript:;" data-subject="Оформление гражданства" class="btn btn-blue large"><span>Получить консультацию</span></a></div>
             </div>
           </div>
         </div>
