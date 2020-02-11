@@ -14,40 +14,14 @@
 ?>
 </div>
 <footer id="site-footer" role="contentinfo" class="header-footer-group">
-
-  <div class="line1">
-    <div class="in">
-      <div class="flex">
-        <div class="b1">
-          <ul class="foot-menu">
-            <li><a href="/about">О нас</a></li>
-            <li><a href="/prisvoenie-uslovnyh-nomerov-kleimenia">Услуги</a></li>
-            <li><a href="/people/">Команда</a></li>
-            <li><a href="/category/cases/">Кейсы</a></li>
-            <li><a href="/docs/">Документы</a></li>
-            <li><a href="/contacts/">Контакты</a></li>
-          </ul>
-        </div>
-        <div class="b2">+7 495 369 38 77</div>
-        <div class="b3">
-          <a data-fancybox data-src="#callmeback" href="javascript:;" class="btn btn-grey">Заказать звонок</a>
-        </div>
-        <div class="b4">
-          <ul class="social-links">
-            <li><a href="#" class="ico-vk"></a></li>
-            <li><a href="#" class="ico-fb"></a></li>
-            <li><a href="#" class="ico-wu"></a></li>
-            <li><a href="#" class="ico-tg"></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
   <div class="line2">
     <div class="in">
       <div class="flex">
-        <div class="copy">© <?php echo date('Y'); ?> ООО «Ремонтная компания». Все права защищены.</div>
-        <div class="developer"><a href="http://masshtab.kz" target="_blank"><span>Разработка сайта</span> </a></div>
+        <div class="botlogowrapper">
+          <div class="botlogo"></div>
+          <div class="copy">Центр содействия миграции. © 2010 — <?php echo date('Y'); ?></div>
+        </div>
+        <div class="developer"><a href="http://masshtab.kz" target="_blank"></a></div>
       </div>
     </div>
   </div>
@@ -59,33 +33,22 @@
 <script src="/wp-content/themes/csm/assets/js/vendor/modernizr-3.7.1.min.js"></script>
 <script>window.jQuery || document.write('<script src="/wp-content/themes/csm/assets/js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
 <script src="/wp-content/themes/csm/assets/js/plugins.js"></script>
-<script src="/wp-content/themes/csm/assets/js/vendor/stellarnav.min.js"></script>
+<script src="/wp-content/themes/csm/assets/js/vendor/jquery.gradient.text.min.js"></script>
 <script src="/wp-content/themes/csm/assets/js/vendor/tooltipster.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 <script src="/wp-content/themes/csm/assets/js/main.js"></script>
 
-<div style="display: none;" id="hidden-content">
-  <div class="form">
-    <div class="header">Получить консультацию</div>
-    <?php echo do_shortcode('[contact-form-7 id="71" title="Получить консультацию"]'); ?>
-  </div>
-</div>
-<div style="display: none;" id="leave-req">
-  <div class="form">
-    <div class="header">Оставить заявку</div>
-    <?php echo do_shortcode('[contact-form-7 id="73" title="Оставить заявку"]'); ?>
-  </div>
-</div>
+
 <div style="display: none;" id="callmeback">
   <div class="form">
     <div class="header">Заказать звонок</div>
     <?php echo do_shortcode('[contact-form-7 id="72" title="Заказать звонок"]'); ?>
   </div>
 </div>
-<div style="display: none;" id="poll">
+<div style="display: none;" id="help">
   <div class="form">
-    <div class="header">Анкета</div>
-    <?php echo do_shortcode('[contact-form-7 id="74" title="Анкета"]'); ?>
+    <div class="header">Получить консультацию</div>
+    <?php echo do_shortcode('[contact-form-7 id="15" title="Получить консультацию"]'); ?>
   </div>
 </div>
 

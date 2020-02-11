@@ -5,148 +5,101 @@ Template Name: Landing
 get_header(); ?>
 
 
+  <!-- MAIN PAGE -->
+  <!-- MAIN PAGE -->
+  <!-- MAIN PAGE -->
 
 
-    <!-- MAIN PAGE -->
-    <!-- MAIN PAGE -->
-    <!-- MAIN PAGE -->
-
-    <div class="header-text-block">
-      <div class="in">
-
-        <span class="mobile-header">Обеспечим юридическую защиту вашего бизнеса</span>
-        <a data-fancybox data-src="#hidden-content" href="javascript:;" class="btn btn-yellow">Получить консультацию</a>
+  <div class="in">
+    <div class="landbg">
+      <div class="header-text-block">
+        <h1>
+          <span class="gradient-text"
+                data-gradient-text-range="1EB6E9, 1E317E,DA325A"
+                data-gradient-text-position="to right"
+          >Центр содействия миграции</span></h1>
       </div>
-    </div>
-
-    <div class="in2">
       <div class="services-block">
-        <div class="header">Наши <a href="/prisvoenie-uslovnyh-nomerov-kleimenia/">услуги</a></div>
         <div class="flex-w">
           <div class="flex3 ico1">
             <div class="li-content">
-              <div class="text">Присвоение условных номеров клеймения</div>
-              <div class="more_w next"><a href="#" class="more"><span>Подробнее</span></a></div>
+              <div class="img"></div>
+              <div class="text">Оформление Анкет на ВНЖ</div>
+              <div class="desc">Заполнение анкет на РВП и ВНЖ</div>
+              <div><a data-fancybox data-src="#help" href="javascript:;" data-subject="Оформление Анкет на ВНЖ" class="btn btn-blue large"><span>Получить консультацию</span></a></div>
             </div>
           </div>
           <div class="flex3 ico2">
             <div class="li-content">
-              <div class="text">Аттестация цехов ремонтных предприятий</div>
-              <div class="more_w next"><a href="#" class="more"><span>Подробнее</span></a></div>
+              <div class="img"></div>
+              <div class="text">Помощь в получении РВП</div>
+              <div class="desc">Помощь в получении РВП и ВНЖ</div>
+              <div><a  data-fancybox data-src="#help" href="javascript:;" data-subject="Помощь в получении РВП" class="btn btn-blue large"><span>Получить консультацию</span></a></div>
             </div>
           </div>
           <div class="flex3 ico3">
             <div class="li-content">
-              <div class="text">Сертификация железнодорожной продукции</div>
-              <div class="more_w next"><a href="#" class="more"><span>Подробнее</span></a></div>
+              <div class="img"></div>
+              <div class="text">Оформление гражданства</div>
+              <div class="desc">Оформление Гражданства РФ</div>
+              <div><a  data-fancybox data-src="#help" href="javascript:;" data-subject="Оформление гражданства" class="btn btn-blue large"><span>Получить консультацию</span></a></div>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="benefits-block">
-      <div class="in2">
-        <div class="flex">
-          <div class="flex2-3">
-            <div>
-              <div class="header">Преимущества работы с&nbsp;нами</div>
-            </div>
-          </div>
-          <div class="flex1-3 ico1">
-            <div>Команда профессионалов, заинтересованная в&nbsp;результате</div>
-          </div>
-          <div class="flex1-3 ico2">
-            <div>Консультирование по&nbsp;всем этапам работы</div>
-          </div>
-          <div class="flex1-3 ico3">
-            <div>База нормативной и&nbsp;технической документации</div>
-          </div>
-          <div class="flex1-3 ico4">
-            <div>Высокая скорость обработки заявки и&nbsp;получения результатов</div>
-          </div>
-          <div class="flex1-3 ico5">
-            <div>Оказание услуг по&nbsp;принципам «одного окна» <i class="tooltip maxonly" title="Специалисты компании оказывают услуги
-по принципу «одного окна» и берут на себя
-все необходимые согласования
-с причастными структурами."></i></div>
-          </div>
-          <div class="flex-el">
-            <div class="flex-el-in">
-              <div class="more_w long"><a href="/about/" class="more"><span>Подробнее о нас</span></a></div>
+  <section class="section2">
+    <div class="in">
+      <div class="flex">
+        <div class="flex1-2">
+          <div class="pic">
+            <div class="men"></div>
+            <div class="text">
+              <div class="header">Виктор Фишер</div>
+              <p>Директор центра содействия миграции</p>
+              <ul class="social-links">
+                <li><a href="https://api.whatsapp.com/send?phone=79257753467" target="_blank" class="ico-wh"></a></li>
+                <li><a href="viber://chat?number=79257753467" target="_blank" class="ico-vb"></a></li>
+                <li><a href="https://t.me/CSMIG" target="_blank" class="ico-tg"></a></li>
+              </ul>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-
-    <div class="pattern">
-      <div class="in2">
-        <div class="cases-block">
-          <div class="top">
-            <div class="header">
-              <a href="/cases">Кейсы</a>
-            </div>
-            <div class="more_w_w">
-              <div class="more_w prev"><a href="#" class="more"><span>Предыдущий</span></a></div>
-              <div class="more_w next"><a href="#" class="more"><span>Следующий</span></a></div>
-            </div>
-            <div class="title_w">
-              <div class="title">
-                <div class="header">ООО «ВРК «СИБИРЬ»</div>
-                Деятельность: комплексный ремонт грузовых вагонов и колесных пар.<br>
-                Дислокация: г. Новосибирск.
-              </div>
-            </div>
-            <div class="clearfix"></div>
-          </div>
-
-          <div class="case">
-            <div class="pull-left">Задача</div>
-            <div class="pull-right">Создать пункт текущего отцепочного ремонта грузовых вагонов с нуля на площадке
-              Топкинского
-              цементного завода.
-            </div>
-          </div>
-          <div class="center">
-            <a href="/создание-пункта-текущего-отцепочног/" class="btn btn-yellow">Решение и результат</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="contact-block">
-      <div class="in">
-        <div class="header">Наши <a href="/contacts">контакты</a></div>
-        <div class="line flex">
-          <div class="b1">Москва, Маслова пр-т, д. 46, оф. 6</div>
-          <div class="b2"><a href="mailto:info@rk-company.ru">info@rk-company.ru</a></div>
-          <div class="b3">+7 975 758 98 89</div>
-          <div class="b4">
-            <ul class="social-links">
-              <li><a href="#" class="ico-vk"></a></li>
-              <li><a href="#" class="ico-fb"></a></li>
-              <li><a href="#" class="ico-wu"></a></li>
-              <li><a href="#" class="ico-tg"></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="map">
-        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Af1381e2cb3858b023e074cef51bacc13016003f77326471f72a39a70011fd006&amp;source=constructor" width="100%" height="555" frameborder="0"></iframe>
-        <div class="in">
+        <div class="flex1-2 section2_right">
+          <div class="header">Помогаем всем быстро и&nbsp;с&nbsp;результатом!</div>
+          <p>Если у вас остались вопросы по получению РВП, ВНЖ и Гражданства РФ, вы можете задать их онлайн-консультанту
+            или записаться на прием.</p>
           <div class="form">
-              <div class="header">У вас есть вопросы?</div>
-                <?php echo do_shortcode('[contact-form-7 id="71" title="Получить консультацию"]'); ?>
+            <?php echo do_shortcode('[contact-form-7 id="5" title="Видимая форма"]'); ?>
           </div>
         </div>
       </div>
     </div>
+  </section>
 
 
-    <!-- MAIN PAGE -->
-    <!-- MAIN PAGE -->
-    <!-- MAIN PAGE -->
+  <div class="contact-block">
+    <div class="in">
+      <div class="line flex">
+        <div class="b0">Мы рядом</div>
+        <div class="b1">109316 г. Москва, ул. Волгоградский проспект, дом 28А каб 308</div>
+        <div class="b2"><a href="mailto:info@csmig.ru">info@csmig.ru</a></div>
+        <div class="b3"><a href="tel:+74953693042" class="ico-tel">8 495 369 30 42</a></div>
+      </div>
+    </div>
+    <div class="map">
+      <div class="in">
+        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Abee76e440e7278fdbde445ff050dea8811ef45237287ed8f0119f381f4308682&amp;source=constructor" width="100%" height="480" frameborder="0"></iframe>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- MAIN PAGE -->
+  <!-- MAIN PAGE -->
+  <!-- MAIN PAGE -->
 
 
 <?php

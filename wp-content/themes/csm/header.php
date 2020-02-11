@@ -35,48 +35,19 @@ wp_body_open();
   <div class="in">
     <div class="pull-left">
       <a href="/" class="logo pull-left"></a>
-      <div class="slogan pull-left">Специалист в области железнодорожного транспорта</div>
     </div>
     <div class="pull-right btn-group">
-      <a data-fancybox data-src="#callmeback" href="javascript:;" class="btn btn-blue">Заказать звонок</a>
-      <a href="#" class="btn btn-2-line">Коммерческое предложение</a>
+      <ul class="social-links">
+        <li><a href="https://api.whatsapp.com/send?phone=79257753467" target="_blank" class="ico-wh"></a></li>
+        <li><a href="viber://chat?number=79257753467" target="_blank" class="ico-vb"></a></li>
+        <li><a href="https://t.me/CSMIG" target="_blank" class="ico-tg"></a></li>
+      </ul>
+      <a href="tel:89257713153" class="ico-tel top-tel">8 925 771 31 53</a>
+      <a data-fancybox data-src="#callmeback" href="javascript:;" class="btn">Заказать звонок</a>
     </div>
     <div class="clearfix"></div>
   </div>
 
-  <div class="in">
-    <div class="topmenu_w">
-      <div class="pull-left">
-        <div class="stellarnav">
-          <ul>
-            <li><a href="/about/"><span>О нас</span></a></li>
-            <li><a href="/prisvoenie-uslovnyh-nomerov-kleimenia/"><span>Услуги</span></a>
-              <ul>
-                <li><a href="/prisvoenie-uslovnyh-nomerov-kleimenia/">Присвоение условных номеров клеймения</a></li>
-                <li><a href="/attestacia-cehov-remontnyh-predpriyatii/">Аттестация цехов ремонтных предприятий</a>
-                  <ul>
-                    <li><a href="/attestacia-telejechnyh-otdelenii/">Аттестация тележечных отделений</a></li>
-                    <li><a href="/attestacia-kolesno-rolikovyh-uchastkov/">Аттестация колесно-роликовых участков</a></li>
-                    <li><a href="/attestacia-kontrolnyh-punktov-avtotormozov/">Аттестация контрольных пунктов автотормозов и автоматных отделений</a></li>
-                    <li><a href="/attestacia-uchastkov-nerazrushauschego-kontrolya/">Аттестация участков неразрущающего контроля</a></li>
-                  </ul>
-                </li>
-                <li><a href="/sertifikacia-jd-produkcii/">Сертификация железнодорожной продукции</a></li>
-              </ul>
-            </li>
-            <li><a href="/people/"><span>Команда</span></a></li>
-            <li><a href="/category/cases/"><span>Кейсы</span></a></li>
-            <li><a href="/docs/"><span>Документы</span></a></li>
-            <li><a href="/contacts/"><span>Контакты</span></a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="pull-right">
-        <div class="tel">+7 495 369 38 77</div>
-      </div>
-      <div class="clearfix"></div>
-    </div>
-  </div>
 </header><!-- #site-header -->
 
 
