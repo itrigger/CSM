@@ -475,12 +475,12 @@ body {
 }
 
 .section2{
-  .social-links{
+  .pic .social-links{
     opacity: 0.7;
     margin-top: 15px;
     border-top: 1px solid #fff;
     display: inline-flex;
-    li{
+     li{
       margin-top: 10px;
       .ico-wh{background: url('../images/whatsapp-glyph-white.svg') 0 0 no-repeat;background-size: 25px 25px;}
       .ico-vb {   background: url('../images/viber-white.svg') 0 0 no-repeat; background-size: 25px 25px; }
@@ -677,7 +677,7 @@ input[type=submit] {
 
 .services-block {
   margin: 0 4px 20px;
-  padding: 26px 0 20px 40px;
+  padding: 26px 20px 20px;
 
   .img {
     margin: 0 auto 29px;
@@ -777,17 +777,45 @@ input[type=submit] {
       }
     }
 
-/*    .men {
-      position: absolute;
-      background: url('../images/men.png') 0 0 no-repeat;
-      background-size: contain;
-      width: 337px;
-      height: 381px;
-      left: 216px;
-      top: -50px;
-    }*/
   }
+  .pic-mobile {
+    display: none;
+    .text {
+      padding: 21px 0 40px;
+      color: #000;
+      max-width: 270px;
+      .header {
+        font-size: 22px;
+        font-family: $rubik-medium;
+        margin: 0;
+      }
 
+      p {
+        font-size: 18px;
+        font-family: $rubik-light;
+        margin: 7px 0 0;
+        line-height: 23px;
+      }
+    }
+    .social-links{
+      opacity: 1;
+      margin-top: 15px;
+      border-top: 1px solid #ccc;
+      display: inline-flex;
+      li{
+        margin-top: 10px;
+        &:last-child{
+          margin-right: 0;
+        }
+      }
+    }
+    .men{
+      img{
+        width: 100%;
+      }
+    }
+
+  }
   .section2_right {
     .header {
       font-size: 55px;
@@ -966,6 +994,8 @@ input[type=submit] {
       color: #b3b3b3;
       display: block;
       padding-right: 156px;
+      width: 136px;
+      height: 32px;
       border: none;
       position: relative;
       &:before {
@@ -1123,7 +1153,6 @@ span.wpcf7-not-valid-tip {
   input.wpcf7-not-valid {
     border-color: red;
   }
-
   .wpcf7-response-output {
     max-width: 670px;
   }
@@ -1138,6 +1167,18 @@ span.wpcf7-not-valid-tip {
     bottom: 50px;
     font-size: 12px;
     line-height: 16px;
+  }
+}
+
+.showonhover{
+  opacity: 0;
+  transition: all 0.2s;
+}
+
+.services-block .li-content:hover{
+  .showonhover{
+    opacity: 1;
+    transition: all 0.2s;
   }
 }
 
@@ -1161,9 +1202,203 @@ span.wpcf7-not-valid-tip {
 
 
 @media (min-width: 1024px) and (max-width: 1440px) {
-
+  .in{
+    padding: 0 20px;
+  }
+  .services-block{
+    padding: 26px 20px 20px;
+    margin: 0 0px 20px;
+  }
+  .services-block .li-content{
+    padding: 18px 10px 0 0px;
+    text-align: center;
+  }
+  .services-block .ico2 .li-content {
+    padding-left: 0;
+  }
+  .services-block .ico3 .li-content {
+    padding-left: 0px;
+    padding-right: 0;
+  }
+  .services-block .ico1 .img{
+    background-size: contain;
+    width: 304px;
+    height: 276px;
+  }
+  .services-block .li-content .text{
+    text-align: center;
+  }
+  .services-block .li-content .desc{
+    text-align: center;
+  }
+  .services-block .ico2 .img{
+    background-size: contain;
+    width: 317px;
+    height: 276px;
+  }
+  .services-block .ico3 .img{
+    background-size: contain;
+    width: 302px;
+    height: 277px;
+  }
+  .flex1-2{
+    width: 100%;
+    max-width: 100%;
+    flex: 1 1 100%;
+  }
 }
 
 @media (min-width: 376px) and (max-width: 1023px) {
+  body{
+    min-width: 376px;
+  }
+  .flex-w{
+    flex-direction: column;
+  }
+  .flex1-2{
+    width: 100%;
+    max-width: 100%;
+    flex: 1 1 100%;
+  }
+  .flex3{
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+  .services-block .li-content{
+    text-align: center;
+    margin-bottom: 25px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .in{
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  .header-text-block{
+    padding: 50px 20px 20px;
+  }
+  .header-text-block h1{
+    font-size: 50px;
+  }
+  .showonhover{
+    opacity: 1;
+  }
+  .services-block .ico1 .img{background-position: center 0;}
+  .services-block .ico2 .img{background-position: center 0;}
+  .services-block .ico3 .img{background-position: center 0;}
+  .services-block{
+    padding-bottom: 0;
+  }
+}
+@media (min-width: 376px) and (max-width: 560px) {
+  .section2 .pic{
+    display: none;
+  }
+  .section2 .pic-mobile{
+    display: block;
+  }
+  .section2 {
+    margin-bottom: 18px;
+    padding-top: 25px;
+  }
+}
+@media (min-width: 376px) and (max-width: 762px) {
+  .section2 .pic{
+    width: 100%;
+    left: 0px;
+  }
+  .section2 .section2_right .header{
+    font-size: 40px;
+    line-height: 40px;
+  }
+  #site-header{
+    .pull-left{
+      float: none;
+    }
+    .logo{
+      margin: 3px auto 10px;
+    }
+    .pull-right{
+      float: none;
+      text-align: center;
+    }
+  }
+  .header-text-block h1{
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .section2_right .form .rounded_wrap{
+    border: none;
+    border-radius: 0;
+    overflow: visible;
+  }
+  .section2_right .form input[type=text]{
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    width: 100%;
+    height: 50px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #7f7f7f;
+    margin-bottom: 17px;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  .section2_right .form .rounded_wrap{
+    display: block;
+  }
+  .section2_right .form input[type=submit]{
+    border-radius: 30px;
+  }
+  #site-footer .line2 .flex, #site-footer .botlogowrapper{
+    display: block;
+  }
+  #site-footer .line2 .copy{
+    padding-left: 0;
+    margin-bottom: 10px;
+  }
+  .contact-block .ico-tel{
+    margin: 7px 40px 0 25px;
+  }
+  .services-block .ico1 .img{
+    background-size: contain;
+    width: 100%;
+    height: 246px;
+  }
+  .services-block .ico2 .img{
+    background-size: contain;
+    width: 100%;
+    height: 246px;
+  }
+  .services-block .ico3 .img{
+    background-size: contain;
+    width: 100%;
+    height: 246px;
+  }
+  .services-block .li-content .text{
+    font-size: 21px;
+  }
+  .btn.large {
+    font-size: 15px;
+    padding: 15px 33px;
+  }
+  .form input[type=text], .form textarea{
+    width: 100%;
+  }
+}
 
+@media (min-width: 376px) and (max-width: 548px) {
+  #site-header .social-links{
+    display: block;
+   margin: 10px auto;
+  }
+  #site-header .pull-right{
+    display: flex;
+    flex-direction: column;
+  }
+  #site-header .pull-right a {
+    margin: 0 auto 10px;
+  }
 }

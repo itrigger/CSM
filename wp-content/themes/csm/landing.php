@@ -24,17 +24,17 @@ get_header(); ?>
           <div class="flex3 ico1">
             <div class="li-content">
               <div class="img"></div>
-              <div class="text">Оформление Анкет на ВНЖ</div>
-              <div class="desc">Заполнение анкет на РВП и ВНЖ</div>
-              <div><a data-fancybox data-src="#help" href="javascript:;" data-subject="Оформление Анкет на ВНЖ" class="btn btn-blue large"><span>Получить консультацию</span></a></div>
+              <div class="text">Оформление Анкет на&nbsp;ВНЖ</div>
+              <div class="desc">Заполнение анкет на&nbsp;РВП и&nbsp;ВНЖ</div>
+              <div class="showonhover"><a data-fancybox data-src="#help" href="javascript:;" data-subject="Оформление Анкет на ВНЖ" class="btn btn-blue large"><span>Получить консультацию</span></a></div>
             </div>
           </div>
           <div class="flex3 ico2">
             <div class="li-content">
               <div class="img"></div>
-              <div class="text">Помощь в получении РВП</div>
-              <div class="desc">Помощь в получении РВП и ВНЖ</div>
-              <div><a data-fancybox data-src="#help" href="javascript:;" data-subject="Помощь в получении РВП" class="btn btn-blue large"><span>Получить консультацию</span></a></div>
+              <div class="text">Помощь в&nbsp;получении РВП</div>
+              <div class="desc">Помощь в&nbsp;получении РВП и&nbsp;ВНЖ</div>
+              <div class="showonhover"><a data-fancybox data-src="#help" href="javascript:;" data-subject="Помощь в получении РВП" class="btn btn-blue large"><span>Получить консультацию</span></a></div>
             </div>
           </div>
           <div class="flex3 ico3">
@@ -42,7 +42,7 @@ get_header(); ?>
               <div class="img"></div>
               <div class="text">Оформление гражданства</div>
               <div class="desc">Оформление Гражданства РФ</div>
-              <div><a data-fancybox data-src="#help" href="javascript:;" data-subject="Оформление гражданства" class="btn btn-blue large"><span>Получить консультацию</span></a></div>
+              <div class="showonhover"><a data-fancybox data-src="#help" href="javascript:;" data-subject="Оформление гражданства" class="btn btn-blue large"><span>Получить консультацию</span></a></div>
             </div>
           </div>
         </div>
@@ -56,6 +56,18 @@ get_header(); ?>
         <div class="flex1-2">
           <div class="pic">
             <div class="men"></div>
+            <div class="text">
+              <div class="header">Виктор Фишер</div>
+              <p>Директор центра содействия миграции</p>
+              <ul class="social-links">
+                <li><a href="https://api.whatsapp.com/send?phone=79257753467" target="_blank" class="ico-wh"></a></li>
+                <li><a href="viber://chat?number=79257753467" target="_blank" class="ico-vb"></a></li>
+                <li><a href="https://t.me/CSMIG" target="_blank" class="ico-tg"></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="pic-mobile">
+            <div class="men"><img src="/wp-content/themes/csm/assets/images/man.png" /></div>
             <div class="text">
               <div class="header">Виктор Фишер</div>
               <p>Директор центра содействия миграции</p>
