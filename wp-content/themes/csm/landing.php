@@ -24,24 +24,21 @@ get_header(); ?>
           <div class="flex3 ico1">
             <div class="li-content">
               <div class="img"></div>
-              <div class="text">Оформление Анкет на&nbsp;ВНЖ</div>
-              <div class="desc">Заполнение анкет на&nbsp;РВП и&nbsp;ВНЖ</div>
+              <div class="text">Заполнение анкет на&nbsp;РВП и&nbsp;ВНЖ</div>
               <div class="showonhover"><a data-fancybox data-src="#help" href="javascript:;" data-subject="Оформление Анкет на ВНЖ" class="btn btn-blue large"><span>Получить консультацию</span></a></div>
             </div>
           </div>
           <div class="flex3 ico2">
             <div class="li-content">
               <div class="img"></div>
-              <div class="text">Помощь в&nbsp;получении РВП</div>
-              <div class="desc">Помощь в&nbsp;получении РВП и&nbsp;ВНЖ</div>
+              <div class="text">Помощь в&nbsp;получении РВП и&nbsp;ВНЖ</div>
               <div class="showonhover"><a data-fancybox data-src="#help" href="javascript:;" data-subject="Помощь в получении РВП" class="btn btn-blue large"><span>Получить консультацию</span></a></div>
             </div>
           </div>
           <div class="flex3 ico3">
             <div class="li-content">
               <div class="img"></div>
-              <div class="text">Оформление гражданства</div>
-              <div class="desc">Оформление Гражданства РФ</div>
+              <div class="text">Оформление гражданства РФ</div>
               <div class="showonhover"><a data-fancybox data-src="#help" href="javascript:;" data-subject="Оформление гражданства" class="btn btn-blue large"><span>Получить консультацию</span></a></div>
             </div>
           </div>
