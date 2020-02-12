@@ -14,10 +14,7 @@ get_header(); ?>
     <div class="landbg">
       <div class="header-text-block">
         <h1>
-          <span class="gradient-text"
-                data-gradient-text-range="1EB6E9, 1E317E,DA325A"
-                data-gradient-text-position="to right"
-          >Центр содействия миграции</span></h1>
+          Центр содействия миграции</h1>
       </div>
       <div class="services-block">
         <div class="flex-w">

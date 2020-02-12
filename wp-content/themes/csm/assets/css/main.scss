@@ -661,6 +661,14 @@ input[type=submit] {
     font-family: $rubik-medium;
     line-height: 65px;
     margin: 0;
+    background-image: -webkit-linear-gradient(left, #1EB6E9, #1E317E, #DA325A); /* For Chrome and Safari */
+    background-image:    -moz-linear-gradient(left, #1EB6E9, #1E317E, #DA325A); /* For old Fx (3.6 to 15) */
+    background-image:     -ms-linear-gradient(left, #1EB6E9, #1E317E, #DA325A); /* For pre-releases of IE 10*/
+    background-image:      -o-linear-gradient(left, #1EB6E9, #1E317E, #DA325A); /* For old Opera (11.1 to 12.0) */
+    background-image:         linear-gradient(to right, #1EB6E9, #1E317E, #DA325A); /* Standard syntax; must be last */
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
   }
 
   .mobile-header {
@@ -1247,9 +1255,9 @@ span.wpcf7-not-valid-tip {
   }
 }
 
-@media (min-width: 376px) and (max-width: 1023px) {
+@media (min-width: 300px) and (max-width: 1023px) {
   body{
-    min-width: 376px;
+    min-width: 300px;
   }
   .flex-w{
     flex-direction: column;
@@ -1290,7 +1298,7 @@ span.wpcf7-not-valid-tip {
     padding-bottom: 0;
   }
 }
-@media (min-width: 376px) and (max-width: 560px) {
+@media (min-width: 300px) and (max-width: 560px) {
   .section2 .pic{
     display: none;
   }
@@ -1302,7 +1310,7 @@ span.wpcf7-not-valid-tip {
     padding-top: 25px;
   }
 }
-@media (min-width: 376px) and (max-width: 762px) {
+@media (min-width: 300px) and (max-width: 762px) {
   .section2 .pic{
     width: 100%;
     left: 0px;
@@ -1388,7 +1396,7 @@ span.wpcf7-not-valid-tip {
   }
 }
 
-@media (min-width: 376px) and (max-width: 548px) {
+@media (min-width: 300px) and (max-width: 548px) {
   #site-header .social-links{
     display: block;
    margin: 10px auto;
