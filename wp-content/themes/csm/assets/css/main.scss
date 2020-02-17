@@ -1310,10 +1310,43 @@ span.wpcf7-not-valid-tip {
     padding-top: 25px;
   }
 }
+
+.mobile{
+  display: none;
+}
+.mobile.topcontacts{
+  .flex1-2{
+    width: 50% !important;
+    max-width: 50% !important;
+    flex: 1 1 50% !important;
+    &.right{
+      padding: 20px 10px 0 0;
+      text-align: right;
+    }
+  }
+  .ico-tel{
+    display: flex;
+  }
+  .flex{
+    justify-content: center;
+  }
+  .flex.tels{
+    a:last-child{
+      margin-right: 0;
+    }
+  }
+}
+
 @media (min-width: 300px) and (max-width: 762px) {
+  .desktop{
+    display: none;
+  }
+  .mobile{
+    display: block;
+  }
   .section2 .pic{
     width: 100%;
-    left: 0px;
+    left: 0;
   }
   .section2 .section2_right .header{
     font-size: 40px;
@@ -1324,12 +1357,24 @@ span.wpcf7-not-valid-tip {
       float: none;
     }
     .logo{
-      margin: 3px auto 10px;
+      margin: 3px 0 0 20px;
+      width: 140px;
+      height: 95px;
+      background: url('../images/logo-m.svg') 0 0 no-repeat;
+      background-size: contain;
     }
     .pull-right{
       float: none;
       text-align: center;
     }
+
+  }
+  #site-header .social-links {
+    display: block;
+    margin: 10px auto;
+  }
+  .header-text-block{
+    display: none;
   }
   .header-text-block h1{
     font-size: 40px;
