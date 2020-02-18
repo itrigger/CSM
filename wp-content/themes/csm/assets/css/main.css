@@ -493,14 +493,24 @@ input[type=submit] {
   color: #000;
   font-size: 20px;
   text-decoration: none;
-  margin: 7px 40px 0 0; }
+  margin: 7px 25px 0 0;
+  padding-left: 20px; }
   .ico-tel:before {
     width: 14px;
     height: 14px;
     background: url("../images/ico-tel.svg") 0 0 no-repeat;
     background-size: 14px 14px;
-    left: -26px;
+    left: 0;
     top: 6px; }
+
+.btn-phone {
+  width: 44px;
+  height: 44px;
+  background: url("../images/ico-tel-blue.svg") center center no-repeat;
+  background-size: 14px 14px; }
+  .btn-phone:hover {
+    background: url("../images/ico-tel-white.svg") center center no-repeat #16A2E5;
+    background-size: 14px 14px; }
 
 .logo {
   background: url(../images/logo.svg) 0 0 no-repeat;
@@ -1015,18 +1025,23 @@ span.wpcf7-not-valid-tip {
     padding: 20px 10px 0 0;
     text-align: right; }
 .mobile.topcontacts .ico-tel {
-  display: flex; }
+  /*display: flex;*/
+  margin: 0 25px 7px 0; }
 .mobile.topcontacts .flex {
   justify-content: center; }
-.mobile.topcontacts .flex.tels a:last-child {
-  margin-right: 0; }
+.mobile.topcontacts .flex.tels {
+  flex-direction: column; }
+  .mobile.topcontacts .flex.tels a:last-child {
+    margin-right: 0; }
 
 @media (min-width: 300px) and (max-width: 762px) {
   .desktop {
     display: none; }
 
   .mobile {
-    display: block; }
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px; }
 
   .section2 .pic {
     width: 100%;
