@@ -97,7 +97,7 @@ get_header(); ?>
     </div>
     <div class="map">
       <div class="in">
-        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Abee76e440e7278fdbde445ff050dea8811ef45237287ed8f0119f381f4308682&amp;source=constructor" width="100%" height="480" frameborder="0"></iframe>
+        <iframe src="https://yandex.ua/map-widget/v1/?um=constructor%3Abee76e440e7278fdbde445ff050dea8811ef45237287ed8f0119f381f4308682&amp;source=constructor" width="100%" height="480" frameborder="0"></iframe>
       </div>
     </div>
   </div>
