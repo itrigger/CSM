@@ -368,7 +368,7 @@ body {
 .in {
   max-width: 100%;
   width:100%;
-  padding: 0 20px;
+  padding: 0 10px;
   margin: 0 auto;
   position: relative;
 }
@@ -663,7 +663,7 @@ input[type=submit] {
   height: 69px;
   background: url('../images/logo-m.svg') 0 0 no-repeat;
   background-size: contain;
-  margin: 3px 0 0 7px;
+  margin: 0 0 0 7px;
 }
 
 #site-header{
@@ -709,7 +709,7 @@ input[type=submit] {
 
 
 .services-block {
-  padding: 26px 20px 20px;
+  padding: 26px 20px 0px;
   margin: 0 0px 20px;
   .li-content {
     padding: 0 0 0 20px;
@@ -740,7 +740,8 @@ input[type=submit] {
   .ico2 .li-content:before{background: #16A2E5;}
   .ico3 .li-content:before{background: #DC325A;}
   .showonhover{
-    margin-top: 10px;
+    margin-top: 20px;
+    text-align: center;
   }
 }
 
@@ -752,11 +753,13 @@ input[type=submit] {
   flex: 1 1 100%;
 }
 
-
+.fancybox-content{
+  padding: 44px 44px 24px;
+}
 
 .landbg {
   background: url('../images/landbg.svg') center top repeat;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   border-radius: 10px;
   background-size: 736px 352px;
 }
@@ -1120,17 +1123,7 @@ span.wpcf7-not-valid-tip {
   }
 }
 
-.showonhover{
-  opacity: 0;
-  transition: all 0.2s;
-}
 
-.services-block .li-content:hover{
-  .showonhover{
-    opacity: 1;
-    transition: all 0.2s;
-  }
-}
 
 .fancybox-inner{
   .form .wpcf7-response-output{
@@ -1181,36 +1174,6 @@ span.wpcf7-not-valid-tip {
 
 
 
-@media (min-width: 300px) and (max-width: 1023px) {
-  body{
-    min-width: 300px;
-  }
-  .flex-w{
-    flex-direction: column;
-  }
-  .flex1-2{
-    width: 100%;
-    max-width: 100%;
-    flex: 1 1 100%;
-  }
-  .flex3{
-    width: 100%;
-    max-width: 100%;
-    flex: 0 0 100%;
-  }
-
-
-  .header-text-block{
-    padding: 50px 20px 20px;
-  }
-  .header-text-block h1{
-    font-size: 50px;
-  }
-  .showonhover{
-    opacity: 1;
-  }
-
-}
 
   .section2 .pic{
     display: none;
@@ -1295,7 +1258,7 @@ span.wpcf7-not-valid-tip {
     margin-bottom: 10px;
   }
   .contact-block .ico-tel{
-    margin: 7px 40px 0 25px;
+    margin: 7px 40px 0 5px;
   }
 
 
@@ -1303,5 +1266,139 @@ span.wpcf7-not-valid-tip {
     width: 100%;
   }
 
+body{
+  min-width: 300px;
+}
+.flex-w{
+  flex-direction: column;
+}
+.flex1-2{
+  width: 100%;
+  max-width: 100%;
+  flex: 1 1 100%;
+}
+.flex3{
+  width: 100%;
+  max-width: 100%;
+  flex: 0 0 100%;
+}
+.header-text-block{
+  padding: 50px 20px 20px;
+}
+.header-text-block h1{
+  font-size: 50px;
+}
 
 
+
+
+@media (min-width: 300px) {
+  .services-block .li-content .text{
+    font-size: 21px;
+    line-height: 27px;
+  }
+  .ico-tel.top-tel{
+    display: none;
+  }
+}
+@media (min-width: 372px) {
+  .in{
+    padding: 0 15px;
+  }
+  .services-block{
+    padding: 36px 26px 0;
+  }
+  .services-block .li-content .text{
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .btn{
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .btn.large{
+    font-size: 19px;
+    padding: 15px 29px;
+  }
+  .logo{
+    width: 129px;
+    height: 80px;
+  }
+  .topcontacts .btn{
+    margin-top: 5px;
+  }
+  .landbg{
+    padding-bottom: 20px;
+  }
+}
+@media (min-width: 409px) {
+  .services-block .li-content .text{
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 20px;
+  }
+  .services-block{
+    padding: 36px 30px 0;
+  }
+  .logo{
+    width: 142px;
+    height: 88px;
+  }
+}
+@media (min-width: 476px) {
+  .logo{
+    width: 165px;
+    height: 102px;
+  }
+  .services-block .li-content .text{
+    font-size: 29px;
+    line-height: 41px;
+  }
+  .btn {
+    font-size: 19px;
+    line-height: 22px;
+  }
+}
+@media (min-width: 668px) {
+  .ico-tel.top-tel{
+    display: inline-block;
+  }
+  .services-block .li-content{
+    padding-right: 10px;
+  }
+  .services-block .li-content .text{
+    font-size: 21px;
+    line-height: 24px;
+  }
+  .services-block .showonhover{
+    margin: 20px auto 0;
+  }
+  .flex-w{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .flex3{
+    width: 33%;
+    max-width: 33%;
+    flex: 0 0 33%;
+  }
+}
+@media (min-width: 735px) {
+  .services-block .li-content .text{
+    font-size: 23px;
+    line-height: 26px;
+  }
+
+}
+@media (min-width: 812px) {
+  .services-block .li-content .text{
+    font-size: 24px;
+    line-height: 29px;
+  }
+}
+@media (min-width: 977px) {
+  .services-block .li-content .text{
+    font-size: 29px;
+    line-height: 35px;
+  }
+}

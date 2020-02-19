@@ -41,7 +41,8 @@ wp_body_open();
         </div>
 
         <div>
-          <a data-fancybox data-src="#callmeback" href="javascript:;" class="btn btn-left">Связаться<br/>с&nbsp;нами</a>
+          <a href="tel:89257713153" class="ico-tel top-tel">8 925 771 31 53</a>
+          <a data-fancybox data-src="#callmeback" href="javascript:;" class="btn btn-left">Связаться с&nbsp;нами</a>
         </div>
 
     </div>
@@ -49,8 +50,8 @@ wp_body_open();
 
     <div id="popupmenu" style="display: none;">
       <div class="flex tels">
-        <a href="tel:89257713153" class="ico-tel top-tel">8 925 771 31 53</a>
-        <a href="tel:84953693042" class="ico-tel top-tel">8 495 369 30 42</a>
+        <a href="tel:89257713153" class="ico-tel">8 925 771 31 53</a>
+        <a href="tel:84953693042" class="ico-tel">8 495 369 30 42</a>
       </div>
 
       <div class="flex">
