@@ -27,7 +27,7 @@
   </div>
 
 </footer><!-- #site-footer -->
-
+<a href="/?switch_theme=mobile">Переключиться на мобильную версию</a>
 <?php wp_footer(); ?>
 
 <script src="/wp-content/themes/csm/assets/js/vendor/modernizr-3.7.1.min.js"></script>
