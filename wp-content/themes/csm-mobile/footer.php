@@ -49,12 +49,14 @@
   </div>
 </div>
 <div style="display: none;" id="help">
-  <div class="form">
-    <div class="header">Получить <span>консультацию</span></div>
-    <?php echo do_shortcode('[contact-form-7 id="15" title="Получить консультацию"]'); ?>
-  </div>
-  <div class="pictures">
-    <img src="/wp-content/themes/csm-mobile/assets/images/service3.svg" />
+  <div class="header">Получить <span>консультацию</span></div>
+  <div class="flex">
+    <div class="form">
+      <?php echo do_shortcode('[contact-form-7 id="15" title="Получить консультацию"]'); ?>
+    </div>
+    <div class="pictures">
+      <img src="/wp-content/themes/csm-mobile/assets/images/service3.svg"/>
+    </div>
   </div>
 </div>
 
