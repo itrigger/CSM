@@ -35,31 +35,43 @@ wp_body_open();
 
 
     <div class="mobile topcontacts">
-
-        <div>
-          <a href="/" class="logo"></a>
-        </div>
-
-        <div>
-          <a href="tel:89257713153" class="ico-tel top-tel">8 925 771 31 53</a>
-          <a data-fancybox data-src="#callmeback" href="javascript:;" class="btn btn-left">Связаться с&nbsp;нами</a>
-        </div>
-
+      <div>
+        <a href="/" class="logo"></a>
+      </div>
+      <div>
+        <a href="tel:89257713153" class="ico-tel top-tel">8 925 771 31 53</a>
+        <a data-fancybox data-src="#popupmenu" href="javascript:;" class="btn btn-left">Связаться
+          <span>с&nbsp;нами</span></a>
+      </div>
     </div>
 
 
     <div id="popupmenu" style="display: none;">
-      <div class="flex tels">
-        <a href="tel:89257713153" class="ico-tel">8 925 771 31 53</a>
-        <a href="tel:84953693042" class="ico-tel">8 495 369 30 42</a>
+      <div class="popup-logo">
+        <a href="/"></a>
       </div>
+      <div class="flex_wrap">
+        <div class="flex tels">
+          <div class="tels_group">
+            <a href="tel:89257713153">8 925 771 31 53</a>
+            <a href="tel:84953693042">8 495 369 30 42</a>
+          </div>
+          <a data-fancybox data-src="#callmeback" href="javascript:;" class="btn btn-blue large">Заказать звонок</a>
+        </div>
 
-      <div class="flex">
-        <ul class="social-links">
-          <li><a href="https://api.whatsapp.com/send?phone=79257753467" target="_blank" class="ico-wh"></a></li>
-          <li><a href="viber://chat?number=79257753467" target="_blank" class="ico-vb"></a></li>
-          <li><a href="https://t.me/CSMIG" target="_blank" class="ico-tg"></a></li>
-        </ul>
+        <div class="flex contacts">
+          <div class="addr">
+            109316 г. Москва, ул. Волгоградский проспект, дом 28А каб 308
+          </div>
+          <div class="mail_links">
+            <a href="mailto:info@csmig.ru">info@csmig.ru</a>
+            <ul class="social-links">
+              <li><a href="https://api.whatsapp.com/send?phone=79257753467" target="_blank" class="ico-wh"></a></li>
+              <li><a href="viber://chat?number=79257753467" target="_blank" class="ico-vb"></a></li>
+              <li><a href="https://t.me/CSMIG" target="_blank" class="ico-tg"></a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
 

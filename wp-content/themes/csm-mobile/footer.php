@@ -19,7 +19,7 @@
       <div class="flex">
         <div class="botlogowrapper">
           <div class="botlogo"></div>
-          <div class="copy">Центр содействия миграции. © 2010 — <?php echo date('Y'); ?></div>
+          <div class="copy">Центр содействия миграции. ©&nbsp;2010&nbsp;—&nbsp;<?php echo date('Y'); ?></div>
         </div>
         <div class="developer"><a href="http://masshtab.kz" target="_blank"></a></div>
       </div>
@@ -27,7 +27,9 @@
   </div>
 
 </footer><!-- #site-footer -->
-<a href="/?switch_theme=desktop">Переключиться на полную версию</a>
+<div class="switchto">
+  <a href="/?switch_theme=desktop">Перейти на полную версию</a>
+</div>
 
 <?php wp_footer(); ?>
 
@@ -48,8 +50,11 @@
 </div>
 <div style="display: none;" id="help">
   <div class="form">
-    <div class="header">Получить консультацию</div>
+    <div class="header">Получить <span>консультацию</span></div>
     <?php echo do_shortcode('[contact-form-7 id="15" title="Получить консультацию"]'); ?>
+  </div>
+  <div class="pictures">
+    <img src="/wp-content/themes/csm-mobile/assets/images/service3.svg" />
   </div>
 </div>
 

@@ -39,24 +39,27 @@ get_header(); ?>
   </div>
 
   <section class="section2">
-    <div class="in">
-      <div class="flex">
-        <div class="flex1-2">
 
+
+        <div class="">
           <div class="pic-mobile">
-            <div class="men"><img src="/wp-content/themes/csm/assets/images/man.png" /></div>
-            <div class="text">
-              <div class="header">Виктор Фишер</div>
-              <p>Директор центра содействия миграции</p>
-              <ul class="social-links">
-                <li><a href="https://api.whatsapp.com/send?phone=79257753467" target="_blank" class="ico-wh"></a></li>
-                <li><a href="viber://chat?number=79257753467" target="_blank" class="ico-vb"></a></li>
-                <li><a href="https://t.me/CSMIG" target="_blank" class="ico-tg"></a></li>
-              </ul>
+            <div class="men">
+              <div class="text">
+                <div class="header">Виктор Фишер</div>
+                <p>Директор центра содействия миграции</p>
+                <ul class="social-links">
+                  <li><a href="https://api.whatsapp.com/send?phone=79257753467" target="_blank" class="ico-wh"></a></li>
+                  <li><a href="viber://chat?number=79257753467" target="_blank" class="ico-vb"></a></li>
+                  <li><a href="https://t.me/CSMIG" target="_blank" class="ico-tg"></a></li>
+                </ul>
+              </div>
+              <img src="/wp-content/themes/csm/assets/images/man.png" />
+
             </div>
           </div>
         </div>
-        <div class="flex1-2 section2_right">
+    <div class="in">
+        <div class="section2_right">
           <div class="header">Помогаем всем быстро и&nbsp;с&nbsp;результатом!</div>
           <p>Если у вас остались вопросы по получению РВП, ВНЖ и Гражданства РФ, вы можете задать их онлайн-консультанту
             или записаться на прием.</p>
@@ -64,7 +67,7 @@ get_header(); ?>
             <?php echo do_shortcode('[contact-form-7 id="5" title="Видимая форма"]'); ?>
           </div>
         </div>
-      </div>
+
     </div>
   </section>
 
