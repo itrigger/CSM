@@ -945,7 +945,7 @@ span.wpcf7-not-valid-tip {
     margin-bottom: 30px; }
   #popupmenu .flex.tels .btn {
     margin: 10px auto 0;
-    max-width: 190px; }
+    max-width: 225px; }
   #popupmenu .flex.contacts {
     justify-content: space-between;
     flex-direction: row; }
@@ -1100,6 +1100,10 @@ body {
   bottom: 0;
   right: 0;
   padding: 20px; }
+  #help .header {
+    font-size: 26px;
+    font-family: "Rubik-Medium", sans-serif;
+    margin-bottom: 15px; }
   #help .header span {
     display: block;
     font-family: inherit; }
@@ -1124,7 +1128,23 @@ body {
     border-radius: 30px; }
     #help .form textarea:active, #help .form textarea:focus {
       outline: none; }
+  #help .flex {
+    flex-direction: column; }
 
+@media screen and (orientation: landscape) {
+  #help .header span {
+    display: inline; }
+
+  #help .flex {
+    flex-direction: row;
+    align-items: center; }
+    #help .flex .form, #help .flex .pictures {
+      flex-basis: 50%; }
+
+  #help .pictures {
+    padding: 0 25px;
+    position: relative;
+    top: -40px; } }
 @media (min-width: 300px) {
   .services-block .li-content .text {
     font-size: 21px;

@@ -1216,7 +1216,7 @@ span.wpcf7-not-valid-tip {
   }
   .flex.tels .btn{
     margin: 10px auto 0;
-    max-width: 190px;
+    max-width: 225px;
   }
   .flex.contacts{
     justify-content: space-between;
@@ -1408,6 +1408,11 @@ body{
   bottom:0;
   right:0;
   padding: 20px;
+  .header{
+    font-size: 26px;
+    font-family: $rubik-medium;
+    margin-bottom: 15px;
+  }
   .header span{
     display: block;
     font-family: inherit;
@@ -1436,8 +1441,27 @@ body{
     border-radius: 30px;
     &:active, &:focus{outline:none;}
   }
+  .flex{
+    flex-direction: column;
+  }
 }
-
+@media screen and (orientation:landscape){
+  #help .header span{
+    display: inline;
+  }
+  #help .flex{
+    flex-direction: row;
+    align-items: center;
+    .form, .pictures{
+      flex-basis: 50%;
+    }
+  }
+  #help .pictures{
+    padding: 0 25px;
+    position: relative;
+    top: -40px;
+  }
+}
 
 @media (min-width: 300px) {
   .services-block .li-content .text{
