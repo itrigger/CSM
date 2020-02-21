@@ -48,7 +48,7 @@ wp_body_open();
 
     <div id="popupmenu" style="display: none;">
       <div class="popup-logo">
-        <a href="/"></a>
+        <span></span>
       </div>
       <div class="flex_wrap">
         <div class="flex tels">
