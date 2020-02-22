@@ -242,28 +242,34 @@ textarea {
 /**********************************************************************************************************************/
 @font-face {
   font-family: Rubik-Light;
-  src: url(../fonts/Rubik-Light.eot);
-  src: url(../fonts/Rubik-Light.eot?#iefix) format("embedded-opentype"), url(../fonts/Rubik-Light.woff) format("woff"), url(../fonts/Rubik-Light.ttf) format("truetype"), url(../fonts/Rubik-Light.svg#Rubik-Light) format("svg");
+  src: url(../../../../uploads/fonts/Rubik-Light.eot);
+  src: url(../../../../uploads/fonts/Rubik-Light.eot?#iefix) format("embedded-opentype"), url(../../../../uploads/fonts/Rubik-Light.woff) format("woff"), url(../../../../uploads/fonts/Rubik-Light.ttf) format("truetype"), url(../../../../uploads/fonts/Rubik-Light.svg#Rubik-Light) format("svg");
   font-weight: 300;
   font-style: normal; }
 @font-face {
   font-family: Rubik-Medium;
-  src: url(../fonts/Rubik-Medium.eot);
-  src: url(../fonts/Rubik-Medium.eot?#iefix) format("embedded-opentype"), url(../fonts/Rubik-Medium.woff) format("woff"), url(../fonts/Rubik-Medium.ttf) format("truetype"), url(../fonts/Rubik-Medium.svg#Rubik-Medium) format("svg");
+  src: url(../../../../uploads/fonts/Rubik-Medium.eot);
+  src: url(../../../../uploads/fonts/Rubik-Medium.eot?#iefix) format("embedded-opentype"), url(../../../../uploads/fonts/Rubik-Medium.woff) format("woff"), url(../../../../uploads/fonts/Rubik-Medium.ttf) format("truetype"), url(../../../../uploads/fonts/Rubik-Medium.svg#Rubik-Medium) format("svg");
   font-weight: 500;
   font-style: normal; }
 @font-face {
   font-family: Rubik-Bold;
-  src: url(../fonts/Rubik-Bold.eot);
-  src: url(../fonts/Rubik-Bold.eot?#iefix) format("embedded-opentype"), url(../fonts/Rubik-Bold.woff) format("woff"), url(../fonts/Rubik-Bold.ttf) format("truetype"), url(../fonts/Rubik-Bold.svg#Rubik-Bold) format("svg");
+  src: url(../../../../uploads/fonts/Rubik-Bold.eot);
+  src: url(../../../../uploads/fonts/Rubik-Bold.eot?#iefix) format("embedded-opentype"), url(../../../../uploads/fonts/Rubik-Bold.woff) format("woff"), url(../../../../uploads/fonts/Rubik-Bold.ttf) format("truetype"), url(../../../../uploads/fonts/Rubik-Bold.svg#Rubik-Bold) format("svg");
   font-weight: 700;
   font-style: normal; }
 @font-face {
   font-family: Rubik;
-  src: url(../fonts/Rubik-Regular.eot);
-  src: url(../fonts/Rubik-Regular.eot?#iefix) format("embedded-opentype"), url(../fonts/Rubik-Regular.woff) format("woff"), url(../fonts/Rubik-Regular.ttf) format("truetype"), url(../fonts/Rubik-Regular.svg#Rubik-Regular) format("svg");
+  src: url(../../../../uploads/fonts/Rubik-Regular.eot);
+  src: url(../../../../uploads/fonts/Rubik-Regular.eot?#iefix) format("embedded-opentype"), url(../../../../uploads/fonts/Rubik-Regular.woff) format("woff"), url(../../../../uploads/fonts/Rubik-Regular.ttf) format("truetype"), url(../../../../uploads/fonts/Rubik-Regular.svg#Rubik-Regular) format("svg");
   font-weight: 400;
   font-style: normal; }
+a:focus, a:active, input[type=submit] {
+  outline: none; }
+
+.contact-block .b3 .ico-tel {
+  line-height: 20px; }
+
 .pseudo, .ico-tel:before, .contact-block .line .b1:before, .contact-block .line .b2:before, #site-footer .line2 a:before {
   content: '';
   display: block;
@@ -471,6 +477,12 @@ input[type=submit] {
   background: #fff;
   margin-top: 15px; }
 
+.couple span {
+  display: block; }
+
+.form p {
+  margin: 0; }
+
 #site-header {
   padding-top: 16px;
   padding-bottom: 16px;
@@ -478,7 +490,7 @@ input[type=submit] {
   z-index: 1; }
   #site-header .social-links {
     display: inline-flex;
-    margin-right: 43px;
+    margin-right: 13px;
     position: relative;
     top: 3px; }
   #site-header .pull-right {

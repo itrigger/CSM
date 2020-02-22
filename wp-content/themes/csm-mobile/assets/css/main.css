@@ -242,26 +242,26 @@ textarea {
 /**********************************************************************************************************************/
 @font-face {
   font-family: Rubik-Light;
-  src: url(../fonts/Rubik-Light.eot);
-  src: url(../fonts/Rubik-Light.eot?#iefix) format("embedded-opentype"), url(../fonts/Rubik-Light.woff) format("woff"), url(../fonts/Rubik-Light.ttf) format("truetype"), url(../fonts/Rubik-Light.svg#Rubik-Light) format("svg");
+  src: url(../../../../uploads/fonts/Rubik-Light.eot);
+  src: url(../../../../uploads/fonts/Rubik-Light.eot?#iefix) format("embedded-opentype"), url(../../../../uploads/fonts/Rubik-Light.woff) format("woff"), url(../../../../uploads/fonts/Rubik-Light.ttf) format("truetype"), url(../../../../uploads/fonts/Rubik-Light.svg#Rubik-Light) format("svg");
   font-weight: 300;
   font-style: normal; }
 @font-face {
   font-family: Rubik-Medium;
-  src: url(../fonts/Rubik-Medium.eot);
-  src: url(../fonts/Rubik-Medium.eot?#iefix) format("embedded-opentype"), url(../fonts/Rubik-Medium.woff) format("woff"), url(../fonts/Rubik-Medium.ttf) format("truetype"), url(../fonts/Rubik-Medium.svg#Rubik-Medium) format("svg");
+  src: url(../../../../uploads/fonts/Rubik-Medium.eot);
+  src: url(../../../../uploads/fonts/Rubik-Medium.eot?#iefix) format("embedded-opentype"), url(../../../../uploads/fonts/Rubik-Medium.woff) format("woff"), url(../../../../uploads/fonts/Rubik-Medium.ttf) format("truetype"), url(../../../../uploads/fonts/Rubik-Medium.svg#Rubik-Medium) format("svg");
   font-weight: 500;
   font-style: normal; }
 @font-face {
   font-family: Rubik-Bold;
-  src: url(../fonts/Rubik-Bold.eot);
-  src: url(../fonts/Rubik-Bold.eot?#iefix) format("embedded-opentype"), url(../fonts/Rubik-Bold.woff) format("woff"), url(../fonts/Rubik-Bold.ttf) format("truetype"), url(../fonts/Rubik-Bold.svg#Rubik-Bold) format("svg");
+  src: url(../../../../uploads/fonts/Rubik-Bold.eot);
+  src: url(../../../../uploads/fonts/Rubik-Bold.eot?#iefix) format("embedded-opentype"), url(../../../../uploads/fonts/Rubik-Bold.woff) format("woff"), url(../../../../uploads/fonts/Rubik-Bold.ttf) format("truetype"), url(../../../../uploads/fonts/Rubik-Bold.svg#Rubik-Bold) format("svg");
   font-weight: 700;
   font-style: normal; }
 @font-face {
   font-family: Rubik;
-  src: url(../fonts/Rubik-Regular.eot);
-  src: url(../fonts/Rubik-Regular.eot?#iefix) format("embedded-opentype"), url(../fonts/Rubik-Regular.woff) format("woff"), url(../fonts/Rubik-Regular.ttf) format("truetype"), url(../fonts/Rubik-Regular.svg#Rubik-Regular) format("svg");
+  src: url(../../../../uploads/fonts/Rubik-Regular.eot);
+  src: url(../../../../uploads/fonts/Rubik-Regular.eot?#iefix) format("embedded-opentype"), url(../../../../uploads/fonts/Rubik-Regular.woff) format("woff"), url(../../../../uploads/fonts/Rubik-Regular.ttf) format("truetype"), url(../../../../uploads/fonts/Rubik-Regular.svg#Rubik-Regular) format("svg");
   font-weight: 400;
   font-style: normal; }
 .pseudo, .ico-tel:before, .services-block .li-content:before, .contact-block .line .b1:before, .contact-block .line .b2:before, #site-footer .line2 a:before, .tels_group:before {
@@ -347,6 +347,9 @@ body {
   grid-row-end: 3; }
 
 /*-------*/
+a:focus, a:active, input[type=submit] {
+  outline: none; }
+
 .social-links {
   margin: 0;
   padding: 0;
@@ -356,25 +359,30 @@ body {
     list-style: none;
     line-height: 0;
     margin-right: 11px; }
+    .social-links li:last-child {
+      margin-right: 0; }
     .social-links li a {
       display: inline-block;
       border-bottom: none;
       text-decoration: none; }
     .social-links li .ico-wh {
       background: url("../images/whatsapp-glyph-white.svg") 0 0 no-repeat;
-      background-size: 25px 25px;
-      width: 25px;
-      height: 25px; }
+      background-size: contain;
+      width: 30px;
+      height: 30px; }
     .social-links li .ico-vb {
       background: url("../images/viber-white.svg") 0 0 no-repeat;
-      background-size: 25px 25px;
-      width: 25px;
-      height: 25px; }
+      background-size: contain;
+      width: 30px;
+      height: 30px; }
     .social-links li .ico-tg {
       background: url("../images/telegram-white.svg") 0 0 no-repeat;
-      background-size: 25px 25px;
-      width: 25px;
-      height: 25px; }
+      background-size: contain;
+      width: 30px;
+      height: 30px; }
+
+.contact-block .b3 .ico-tel {
+  line-height: 20px; }
 
 .section2 .pic-mobile .social-links {
   opacity: 0.7;
@@ -385,13 +393,13 @@ body {
     margin-top: 10px; }
     .section2 .pic-mobile .social-links li .ico-wh {
       background: url("../images/whatsapp-glyph-white.svg") 0 0 no-repeat;
-      background-size: 25px 25px; }
+      background-size: 30px 30px; }
     .section2 .pic-mobile .social-links li .ico-vb {
       background: url("../images/viber-white.svg") 0 0 no-repeat;
-      background-size: 25px 25px; }
+      background-size: 30px 30px; }
     .section2 .pic-mobile .social-links li .ico-tg {
       background: url("../images/telegram-white.svg") 0 0 no-repeat;
-      background-size: 25px 25px; }
+      background-size: 30px 30px; }
     .section2 .pic-mobile .social-links li:last-child {
       margin-right: 0; }
 
@@ -931,7 +939,8 @@ span.wpcf7-not-valid-tip {
   .tels_group a {
     color: #fff;
     text-decoration: none;
-    margin-bottom: 5px; }
+    margin-bottom: 10px;
+    line-height: 20px; }
 
 .flex.contacts {
   justify-content: center;
@@ -948,6 +957,8 @@ span.wpcf7-not-valid-tip {
 @media screen and (orientation: landscape) {
   #popupmenu .tels_group {
     flex-direction: row; }
+    #popupmenu .tels_group a:focus, #popupmenu .tels_group a:active {
+      outline: none; }
     #popupmenu .tels_group a:last-child {
       margin-left: 30px; }
   #popupmenu .flex.tels {
@@ -1168,7 +1179,10 @@ body {
     display: none; }
 
   #site-footer .line2 .copy {
-    max-width: 170px; } }
+    max-width: 170px; }
+
+  .topcontacts .btn {
+    margin-top: 8px; } }
 @media (min-width: 372px) {
   .in {
     padding: 0 15px; }
@@ -1193,7 +1207,7 @@ body {
     height: 80px; }
 
   .topcontacts .btn {
-    margin-top: 5px; }
+    margin-top: 20px; }
 
   .landbg {
     padding-bottom: 20px; }

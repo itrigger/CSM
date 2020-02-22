@@ -1,9 +1,7 @@
 <?php ?><!DOCTYPE html>
 
 <html class="no-js" <?php language_attributes(); ?>>
-
 <head>
-
   <meta charset="<?php bloginfo('charset'); ?>">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,7 +37,7 @@ wp_body_open();
         <a href="/" class="logo"></a>
       </div>
       <div>
-        <a href="tel:89257713153" class="ico-tel top-tel">8 925 771 31 53</a>
+        <a href="tel:89257753467" class="ico-tel top-tel">8 925 775 34 67</a>
         <a data-fancybox data-src="#popupmenu" href="javascript:;" class="btn btn-left">Связаться
           <span>с&nbsp;нами</span></a>
       </div>
@@ -53,7 +51,7 @@ wp_body_open();
       <div class="flex_wrap">
         <div class="flex tels">
           <div class="tels_group">
-            <a href="tel:89257713153">8 925 771 31 53</a>
+            <a href="tel:89257753467">8 925 775 34 67</a>
             <a href="tel:84953693042">8 495 369 30 42</a>
           </div>
           <a data-fancybox data-src="#callmeback" href="javascript:;" class="btn btn-blue large">Заказать звонок</a>
@@ -68,7 +66,7 @@ wp_body_open();
             <ul class="social-links">
               <li><a href="https://api.whatsapp.com/send?phone=79257753467" target="_blank" class="ico-wh"></a></li>
               <li><a href="viber://chat?number=79257753467" target="_blank" class="ico-vb"></a></li>
-              <li><a href="https://t.me/CSMIG" target="_blank" class="ico-tg"></a></li>
+              <!--<li><a href="https://t.me/CSMIG" target="_blank" class="ico-tg"></a></li>-->
             </ul>
           </div>
         </div>

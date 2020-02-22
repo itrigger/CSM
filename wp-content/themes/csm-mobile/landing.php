@@ -50,7 +50,7 @@ get_header(); ?>
                 <ul class="social-links">
                   <li><a href="https://api.whatsapp.com/send?phone=79257753467" target="_blank" class="ico-wh"></a></li>
                   <li><a href="viber://chat?number=79257753467" target="_blank" class="ico-vb"></a></li>
-                  <li><a href="https://t.me/CSMIG" target="_blank" class="ico-tg"></a></li>
+                <!--  <li><a href="https://t.me/CSMIG" target="_blank" class="ico-tg"></a></li>-->
                 </ul>
               </div>
               <img src="/wp-content/themes/csm/assets/images/man.png" />

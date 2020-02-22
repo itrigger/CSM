@@ -33,6 +33,10 @@
 
 <?php wp_footer(); ?>
 
+
+<script>
+
+</script>
 <script src="/wp-content/themes/csm/assets/js/vendor/modernizr-3.7.1.min.js"></script>
 <script>window.jQuery || document.write('<script src="/wp-content/themes/csm/assets/js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
 <script src="/wp-content/themes/csm/assets/js/plugins.js"></script>
