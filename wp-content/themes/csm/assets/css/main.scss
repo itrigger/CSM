@@ -458,23 +458,23 @@ body {
 
     .ico-wh {
       background: url('../images/whatsapp-glyph-green.svg') 0 0 no-repeat;
-      background-size: 25px 25px;
-      width: 25px;
-      height: 25px;
+      background-size: contain;
+      width: 30px;
+      height: 30px;
     }
 
     .ico-vb {
       background: url('../images/viber.svg') 0 0 no-repeat;
-      background-size: 25px 25px;
-      width: 25px;
-      height: 25px;
+      background-size: contain;
+      width: 30px;
+      height: 30px;
     }
 
     .ico-tg {
       background: url('../images/telegram.svg') 0 0 no-repeat;
-      background-size: 25px 25px;
-      width: 25px;
-      height: 25px;
+      background-size: contain;
+      width: 30px;
+      height: 30px;
     }
   }
 }
@@ -487,9 +487,9 @@ body {
     display: inline-flex;
      li{
       margin-top: 10px;
-      .ico-wh{background: url('../images/whatsapp-glyph-white.svg') 0 0 no-repeat;background-size: 25px 25px;}
-      .ico-vb {   background: url('../images/viber-white.svg') 0 0 no-repeat; background-size: 25px 25px; }
-      .ico-tg {    background: url('../images/telegram-white.svg') 0 0 no-repeat;background-size: 25px 25px;}
+      .ico-wh{background: url('../images/whatsapp-glyph-white.svg') 0 0 no-repeat;background-size: 30px 30px;}
+      .ico-vb {   background: url('../images/viber-white.svg') 0 0 no-repeat; background-size: 30px 30px; }
+      .ico-tg {    background: url('../images/telegram-white.svg') 0 0 no-repeat;background-size: 30px 30px;}
       &:last-child{
         margin-right: 0;
       }

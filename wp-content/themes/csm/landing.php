@@ -21,21 +21,21 @@ get_header(); ?>
           <div class="flex3 ico1">
             <div class="li-content">
               <div class="img"></div>
-              <div class="text">Заполнение анкет на&nbsp;РВП и&nbsp;ВНЖ</div>
+              <div class="text">Заполнение анкет<br>на&nbsp;РВП и&nbsp;ВНЖ</div>
               <div class="showonhover"><a data-fancybox data-src="#help" href="javascript:;" data-subject="Оформление Анкет на ВНЖ" class="btn btn-blue large"><span>Получить консультацию</span></a></div>
             </div>
           </div>
           <div class="flex3 ico2">
             <div class="li-content">
               <div class="img"></div>
-              <div class="text">Помощь в&nbsp;получении РВП и&nbsp;ВНЖ</div>
+              <div class="text">Помощь в&nbsp;получении<br>РВП и&nbsp;ВНЖ</div>
               <div class="showonhover"><a data-fancybox data-src="#help" href="javascript:;" data-subject="Помощь в получении РВП" class="btn btn-blue large"><span>Получить консультацию</span></a></div>
             </div>
           </div>
           <div class="flex3 ico3">
             <div class="li-content">
               <div class="img"></div>
-              <div class="text">Оформление гражданства РФ</div>
+              <div class="text">Оформление<br>гражданства РФ</div>
               <div class="showonhover"><a data-fancybox data-src="#help" href="javascript:;" data-subject="Оформление гражданства" class="btn btn-blue large"><span>Получить консультацию</span></a></div>
             </div>
           </div>
@@ -56,7 +56,7 @@ get_header(); ?>
               <ul class="social-links">
                 <li><a href="https://api.whatsapp.com/send?phone=79257753467" target="_blank" class="ico-wh"></a></li>
                 <li><a href="viber://chat?number=79257753467" target="_blank" class="ico-vb"></a></li>
-                <li><a href="https://t.me/CSMIG" target="_blank" class="ico-tg"></a></li>
+                <!--<li><a href="https://t.me/CSMIG" target="_blank" class="ico-tg"></a></li>-->
               </ul>
             </div>
           </div>
@@ -68,7 +68,7 @@ get_header(); ?>
               <ul class="social-links">
                 <li><a href="https://api.whatsapp.com/send?phone=79257753467" target="_blank" class="ico-wh"></a></li>
                 <li><a href="viber://chat?number=79257753467" target="_blank" class="ico-vb"></a></li>
-                <li><a href="https://t.me/CSMIG" target="_blank" class="ico-tg"></a></li>
+                <!--<li><a href="https://t.me/CSMIG" target="_blank" class="ico-tg"></a></li>-->
               </ul>
             </div>
           </div>

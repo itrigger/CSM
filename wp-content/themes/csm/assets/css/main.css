@@ -360,19 +360,19 @@ body {
       text-decoration: none; }
     .social-links li .ico-wh {
       background: url("../images/whatsapp-glyph-green.svg") 0 0 no-repeat;
-      background-size: 25px 25px;
-      width: 25px;
-      height: 25px; }
+      background-size: contain;
+      width: 30px;
+      height: 30px; }
     .social-links li .ico-vb {
       background: url("../images/viber.svg") 0 0 no-repeat;
-      background-size: 25px 25px;
-      width: 25px;
-      height: 25px; }
+      background-size: contain;
+      width: 30px;
+      height: 30px; }
     .social-links li .ico-tg {
       background: url("../images/telegram.svg") 0 0 no-repeat;
-      background-size: 25px 25px;
-      width: 25px;
-      height: 25px; }
+      background-size: contain;
+      width: 30px;
+      height: 30px; }
 
 .section2 .pic .social-links {
   opacity: 0.7;
@@ -383,13 +383,13 @@ body {
     margin-top: 10px; }
     .section2 .pic .social-links li .ico-wh {
       background: url("../images/whatsapp-glyph-white.svg") 0 0 no-repeat;
-      background-size: 25px 25px; }
+      background-size: 30px 30px; }
     .section2 .pic .social-links li .ico-vb {
       background: url("../images/viber-white.svg") 0 0 no-repeat;
-      background-size: 25px 25px; }
+      background-size: 30px 30px; }
     .section2 .pic .social-links li .ico-tg {
       background: url("../images/telegram-white.svg") 0 0 no-repeat;
-      background-size: 25px 25px; }
+      background-size: 30px 30px; }
     .section2 .pic .social-links li:last-child {
       margin-right: 0; }
 
