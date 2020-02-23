@@ -582,7 +582,7 @@ input[type=submit] {
       border: none;
       border-left: 1px solid #ccc;
       border-radius: 0;
-      width: 272px;
+      width: 225px;
       margin: 5px 0 0;
       height: 40px;
       &:focus, &:active{
@@ -623,7 +623,10 @@ input[type=submit] {
     display: inline-flex;
     margin-right: 13px;
     position: relative;
-    top:3px;
+    top:9px;
+  }
+  .ico-tel{
+    top: 3px;
   }
   .pull-right {
     float: right;
@@ -635,7 +638,9 @@ input[type=submit] {
     }
   }
 }
-
+.mobile.topcontacts .btn-phone{
+  margin-top: 10px;
+}
 .ico-tel {
   position: relative;
   color: #000;
@@ -737,11 +742,13 @@ input[type=submit] {
 
   .li-content {
     padding: 18px 40px 0 78px;
+    text-align: center;
     .text {
       font-family: $rubik-medium;
       font-size: 25px;
       line-height: 30px;
       margin-bottom: 15px;
+
     }
 
     .desc {
@@ -763,7 +770,12 @@ input[type=submit] {
 
   }
 }
-
+h2{
+  font-weight: normal;
+  font-family: $rubik-medium;
+  font-size: 18px;
+  line-height: 22px;
+}
 .landbg {
   background: url('../images/landbg.svg') center top repeat;
   min-height: 704px;
@@ -952,7 +964,7 @@ input[type=submit] {
       position: relative;
       font-size: 18px;
       padding-top: 18px;
-      font-family: $rubik-medium;
+      font-family: $rubik;
       &:before {
         @extend .pseudo;
        background: url('../images/ico-mail.svg') 0 0 no-repeat;

@@ -460,7 +460,7 @@ input[type=submit] {
   border: none;
   border-left: 1px solid #ccc;
   border-radius: 0;
-  width: 272px;
+  width: 225px;
   margin: 5px 0 0;
   height: 40px; }
   .section2_right .form input[type=text]:focus, .section2_right .form input[type=text]:active {
@@ -492,6 +492,8 @@ input[type=submit] {
     display: inline-flex;
     margin-right: 13px;
     position: relative;
+    top: 9px; }
+  #site-header .ico-tel {
     top: 3px; }
   #site-header .pull-right {
     float: right;
@@ -499,6 +501,9 @@ input[type=submit] {
     margin-top: 7px; }
     #site-header .pull-right a {
       display: inline-block; }
+
+.mobile.topcontacts .btn-phone {
+  margin-top: 10px; }
 
 .ico-tel {
   position: relative;
@@ -580,7 +585,8 @@ input[type=submit] {
     width: 341px;
     height: 297px; }
   .services-block .li-content {
-    padding: 18px 40px 0 78px; }
+    padding: 18px 40px 0 78px;
+    text-align: center; }
     .services-block .li-content .text {
       font-family: "Rubik-Medium", sans-serif;
       font-size: 25px;
@@ -594,6 +600,12 @@ input[type=submit] {
     padding-left: 48px; }
   .services-block .ico3 .li-content {
     padding-left: 8px; }
+
+h2 {
+  font-weight: normal;
+  font-family: "Rubik-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 22px; }
 
 .landbg {
   background: url("../images/landbg.svg") center top repeat;
@@ -736,7 +748,7 @@ input[type=submit] {
     position: relative;
     font-size: 18px;
     padding-top: 18px;
-    font-family: "Rubik-Medium", sans-serif; }
+    font-family: "Rubik", sans-serif; }
     .contact-block .line .b2:before {
       background: url("../images/ico-mail.svg") 0 0 no-repeat;
       width: 17px;

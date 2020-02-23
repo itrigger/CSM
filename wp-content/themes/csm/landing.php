@@ -94,10 +94,11 @@ get_header(); ?>
         <div class="b2"><a href="mailto:info@csmig.ru">info@csmig.ru</a></div>
         <div class="b3"><a href="tel:+74953693042" class="ico-tel">8 495 369 30 42</a></div>
       </div>
+      <h2>Всего 300 метров от метро Волгоградский проспект</h2>
     </div>
     <div class="map">
       <div class="in">
-        <iframe src="https://yandex.ua/map-widget/v1/?um=constructor%3Abee76e440e7278fdbde445ff050dea8811ef45237287ed8f0119f381f4308682&amp;source=constructor" width="100%" height="480" frameborder="0"></iframe>
+        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Abee76e440e7278fdbde445ff050dea8811ef45237287ed8f0119f381f4308682&amp;source=constructor" width="100%" height="480" frameborder="0"></iframe>
       </div>
     </div>
   </div>

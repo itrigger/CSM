@@ -383,6 +383,8 @@ a:focus, a:active, input[type=submit] {
 
 .contact-block .b3 .ico-tel {
   line-height: 20px; }
+  .contact-block .b3 .ico-tel:before {
+    top: 5px; }
 
 .section2 .pic-mobile .social-links {
   opacity: 0.7;
@@ -517,7 +519,7 @@ input[type=submit] {
     background: url("../images/ico-tel.svg") 0 0 no-repeat;
     background-size: 14px 14px;
     left: 0;
-    top: 6px; }
+    top: 7px; }
 
 .btn-phone {
   width: 44px;
@@ -990,7 +992,7 @@ span.wpcf7-not-valid-tip {
   /*display: flex;*/
   margin: 0 25px 7px 0;
   position: relative;
-  top: 5px; }
+  top: 2px; }
 .mobile.topcontacts .flex {
   justify-content: center; }
 .mobile.topcontacts .flex.tels {
@@ -1170,6 +1172,12 @@ body {
     padding: 0 25px;
     position: relative;
     top: -40px; } }
+h2 {
+  font-weight: normal;
+  font-family: "Rubik-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 22px; }
+
 @media (min-width: 300px) {
   .services-block .li-content .text {
     font-size: 21px;
@@ -1412,7 +1420,7 @@ body {
     border: none; }
 
   .section2_right .form input[type=submit] {
-    width: 200px; }
+    width: 250px; }
 
   .section2_right .form input[type=text][name=your-tel] {
     border-left: 1px solid #ccc; }
